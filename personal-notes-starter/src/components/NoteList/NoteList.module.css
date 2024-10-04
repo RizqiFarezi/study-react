@@ -1,0 +1,20 @@
+.listContainer {
+    flex: 1;
+    background-color: #fffde7;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.listTitle {
+    color: #f57f17;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+  
+.emptyMessage {
+    text-align: center;
+    color: #f9a825;
+    font-size: 1rem;
+}

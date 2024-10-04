@@ -1,0 +1,64 @@
+.noteContainer {
+    background-color: #fff9c4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: transform 0.2s;
+}
+  
+.noteContainer:hover {
+    transform: scale(1.02);
+}
+  
+.noteTitle {
+    font-size: 1.3rem;
+    color: #f9a825;
+    margin-bottom: 5px;
+}
+  
+.noteBody {
+    font-size: 1rem;
+    color: #6d4c41;
+    margin-bottom: 10px;
+}
+  
+.noteDate {
+    font-size: 0.8rem;
+    color: #757575;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+  
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+}
+  
+.archiveButton, .deleteButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+  
+.archiveButton {
+    background-color: #ffeb3b;
+    color: #333;
+}
+  
+.archiveButton:hover {
+    background-color: #fdd835;
+}
+  
+.deleteButton {
+    background-color: #e57373;
+    color: #fff;
+}
+  
+.deleteButton:hover {
+    background-color: #ef5350;
+}
